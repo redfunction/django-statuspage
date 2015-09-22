@@ -5,8 +5,8 @@ django-statuspage
 .. image:: https://badge.fury.io/py/django-statuspage.png
     :target: https://badge.fury.io/py/django-statuspage
 
-.. image:: https://travis-ci.org/marguslaak/django-statuspage.png?branch=master
-    :target: https://travis-ci.org/marguslaak/django-statuspage
+.. image:: https://travis-ci.org/redfunction/django-statuspage.png?branch=master
+    :target: https://travis-ci.org/redfunction/django-statuspage
 
 Display status and information of the system. Can be used as a heartbeat
 indicator for load balancer.
