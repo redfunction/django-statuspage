@@ -22,7 +22,8 @@ class TestDjstatuspage(TestCase):
 
         statuspage_view = status_page_class.as_view()
         response = statuspage_view(request)
-        response_json = json.loads(response.getvalue())
+        value = response.getvalue()
+        response_json = json.loads(value.decode("utf-8"))
 
         return response_json
 
