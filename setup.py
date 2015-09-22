@@ -34,7 +34,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Django Statuspage',
     author_email='margus.laak@redfunction.ee',
-    url='https://github.com/marguslaak/django-statuspage',
+    url='https://github.com/redfunction/django-statuspage',
     packages=[
         'djstatuspage',
     ],
