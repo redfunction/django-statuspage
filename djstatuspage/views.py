@@ -37,7 +37,7 @@ class DefaultStatusPage(BaseStatusView):
         if getattr(settings, "STATUSPAGE_TRY_DATABASE", True):
             tasks["database"] = self.get_database_status
 
-        for key, task in tasks.iteritems():
+        for key, task in tasks.items():
             if not callable(task):
                 continue
             kwargs[key] = task()
